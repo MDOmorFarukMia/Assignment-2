@@ -103,11 +103,6 @@ a {
     margin-bottom: 20px;
 }
 
-/* .features-head{
-    display: flex;
-    flex-direction:column-reverse;
-    justify-content: flex-end;
-} */
 .feture-para{
     margin-right: 250px;
 }
@@ -206,26 +201,6 @@ a {
 
 }
 
-/* .box{
-
-}
-.box p{
- 
-   width: 200px;
-    height: 60px;
-    background: #FF900E;
-    border-radius: 8px;
-    font-weight: 700;
-    font-size:45px;
-    line-height: 30px;
-    padding: 42px 42px;
-    text-align: center;
-    color: #FFFFFF;
-} */
-/* .small{
-    font-weight: 300;
-    font-size:20px;
-} */
 .photo {
     width: 714.39px;
     height: 982px;
@@ -280,6 +255,7 @@ a {
 
 .fact {
     margin-left: 240px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
@@ -333,6 +309,15 @@ a {
     margin-top: 50px;
     line-height: 23px;
     color: #727272;
+}
+
+.optional{
+    margin-top: 170px;
+    text-align: center;
+}
+.optional h1{
+    font-weight: 900;
+    font-size: 30px;
 }
 
 /*-- --------------------
