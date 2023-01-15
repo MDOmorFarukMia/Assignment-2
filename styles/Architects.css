@@ -1,0 +1,384 @@
+/*--------------
+header section
+----------------*/
+.headed {
+    width: 1920px;
+    height: 1240px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.Headed-pert {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-pert {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53px;
+    color: #131313;
+    margin-left: 102px;
+
+}
+
+.content {
+    padding-top: 50px;
+}
+
+.component {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #323232;
+    margin-right: 50px;
+
+}
+
+/*--------------
+  about section
+--------------- */
+
+.about {
+    text-align: center;
+
+}
+
+.headline {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 75px;
+    color: #131313;
+}
+
+.description {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 26px;
+    color: #727272;
+}
+
+a {
+    text-decoration: none;
+}
+.text-two{
+    margin-bottom: 50px;
+}
+.btn {
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 20px 24px 24px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    background-color: #FF900E;
+
+}
+
+/*---------------- 
+   banner section 
+ ------------------ */
+.banner {
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+/*------------------
+    features section 
+ --------------------- */
+.features {
+    text-align: right;
+    margin-right: 300px;
+    margin: 120px 0;
+}
+.fetures-img{
+    margin-bottom: 20px;
+}
+
+/* .features-head{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: flex-end;
+} */
+.feture-para{
+    margin-right: 250px;
+}
+.features h1 {
+    height: 106px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: -70px;
+    text-align: right;
+    color: #727272;
+
+}
+.some-text{
+    margin-top: 200px;
+}
+.features p {
+    height: 78px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #727272;
+}
+
+.Features-pert {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    position: absolute;
+    width: 342px;
+    height: 342px;
+    gap: 20px;
+    margin-left: 300px;
+    border-radius: 8px;
+}
+
+/*-----------------
+    love and enjoy 
+------------------- */
+.enjoy {
+    width: 468px;
+    height: 106px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.description-1 {
+    width: 586px;
+    height: 78px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.love p {
+    width: 514px;
+    height: 78px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.love h3 {
+    width: 194px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+
+.head-love {
+    width: 500px;
+    height: 230px;
+}
+
+.love {
+    width: 586px;
+    height: 150px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+/* .box{
+
+}
+.box p{
+ 
+   width: 200px;
+    height: 60px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size:45px;
+    line-height: 30px;
+    padding: 42px 42px;
+    text-align: center;
+    color: #FFFFFF;
+} */
+/* .small{
+    font-weight: 300;
+    font-size:20px;
+} */
+.photo {
+    width: 714.39px;
+    height: 982px;
+    margin-right: 200px;
+    /* margin-top: -200px; */
+    background: url(successful-business-concept-businesswoman-are-smiling-standing-with-crossed-arms-office.jpg);
+    border-radius: 8px;
+    position: relative;
+    z-index: -1;
+}
+.expericenc{
+    background-color: #FF900E;
+    color: #fff;
+    padding: 15px 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: -50px;
+    margin-left: -50px;
+    position: absolute;
+    z-index: 9;
+
+
+}
+.expe-heading{
+    font-weight: 700;
+    font-size: 28px;
+}
+.lover {
+    margin-top: 400px;
+    margin-left: 250px;
+    gap: -250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.lover-text{
+    margin-top: 300px;
+}
+
+/*--------------------
+    some facts section 
+ ----------------------- */
+.fact h2 {
+    width: 258px;
+    height: 53px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.fact {
+    margin-left: 240px;
+    margin-bottom: 100px;
+}
+
+.fact p {
+    width: 542px;
+    height: 52px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 125px;
+    margin-bottom: 125px;
+}
+
+.some-facts {
+    width: 245px;
+    height: 245px;
+    padding: 45px 45px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.icon {
+    width: 55px;
+    height: 53px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 45px;
+    margin-left: 5px;
+    line-height: 53px;
+    color: #424242;
+}
+
+.text {
+    width: 169px;
+    height: 23px;
+    font-family: 'Work Sans';
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/*-- --------------------
+  Our Sponspors section 
+------------------------- */
+.container {
+    margin-left: 750px;
+    margin-bottom: 100px;
+}
+
+.container h1 {
+    width: 327px;
+    height: 53px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+
+}
+
+.container p {
+    width: 542px;
+    height: 52px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 150px;
+    color: #727272;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -76px;
+}
+
+.last p {
+    width: 500px;
+    text-align: center;
+    padding: 39px 400px;
+    margin-left: 280px;
+    margin-top: 130px;
+    background: #FFF4E7;
+    border-radius: 8px;
+
+}
